@@ -12,7 +12,7 @@ namespace task02
             Console.WriteLine("Side 2:");
             var side2 = int.Parse(Console.ReadLine() ?? string.Empty);
 
-            Rectangle rectangle = new(side1, side2);
+            Rectangle rectangle = new Rectangle(side1, side2);
 
             Console.WriteLine($"Perimeter: {rectangle.Perimeter}\nArea: {rectangle.Area}");
         }
